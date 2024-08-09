@@ -76,4 +76,17 @@
         height: 2rem;
         font-size: 1rem;
     }
+
+    .habits-container {
+        height: 8rem;
+    }
+
+    .habits-container-title {
+        font-size: 2rem;
+        margin-bottom: .80rem;
+    }
+
+    .habits-container-sub-title>br {
+        display: none;
+    }
 }
