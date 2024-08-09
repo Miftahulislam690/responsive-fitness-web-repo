@@ -13,4 +13,67 @@
         color: #ffffff;
         font-size: 1.50rem;
     }
+
+    header {
+        height: 55.75rem;
+        width: auto; 
+    }
+
+    .fitness-title {
+        font-size: 2.25rem;
+    }
+
+    .shape-span {
+        font-size: 3rem;
+    }
+
+    .fitness-sub-title>br {
+        display: none;
+    }
+
+    .fitness-container {
+        grid-template-columns: 1fr;
+        width: 85%;
+        gap: 1rem;
+    }
+
+    .fitness-img {
+        margin: 0 auto;
+        width: 18.25rem;
+    }
+
+    .btn-primary, .btn-primary-2 {
+        width: 10rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
+
+    .video-text-card, .video-text-card-2 {
+        width: 9rem;
+        height: 4rem;
+        left: 5px;
+    }
+
+    .video-text-card-title {
+        font-size: 1.10rem;
+    }
+
+    .video-text-card-2-child>h1 {
+        font-size: 1.45rem;
+    }
+
+    .video-text-card-2 {
+        left: 164px;
+        top: 60px;
+    }
+
+    .light-gray {
+        font-size: .70rem;
+    }
+
+    .pause-icon {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
 }
