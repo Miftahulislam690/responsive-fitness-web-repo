@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
     margin: 0;
@@ -8,106 +6,88 @@
 }
 
 body {
-    font-family: "Inter Tight", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
-/* nav > link > btn styling here */
+/* shared styles */
 
 .btn {
-    background-color: red;
-    border: none;
-    padding: rem;
+    border-radius: 2.875rem;
+    background: rgb(230, 83, 60);
     width: 5.75rem;
-    height: 2.375rem;
-    border-radius: 1.5625rem;
-    color: rgb(255, 255, 255);
+    height: 2.275rem;
+    border: none;
+    margin-right: 1rem;
     font-size: 1.125rem;
-}
-
-.link {
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 39px;
-    padding-right: 1rem;
-    
-}
-
-.link>a {
-    margin-left: 2.9375rem;
-    text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 1.125rem;
 }
 
-/* nav and frame styling starts here */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.frame {
-    height: 50rem;
-    width: auto;
+.light-gray {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+
+/* nav-bar styling */  
+
+header {
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(43, 42, 42, 0.925) 100%);
-    border: 1px solid black;
+    width: auto;
+    height: 44.7875rem;
 }
 
-.brand-name {
+.nav-bar {
+    max-width: 80%;
+    margin: 0rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+}
+
+.brand {
     font-size: 2.25rem;
+    font-weight: 800;
     color: rgb(230, 83, 60);
 }
 
-.nav-section {
+.nav-item {
     display: flex;
-    height: 6.25rem;
-    width: 90rem;
-    margin: 0 auto;
     align-items: center;
-    justify-content: space-between;
+    max-width: 20rem;
+    height: 2.875rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2.5rem;
+    padding-right: 1rem;
+    padding-left: 5px;
 }
 
-.container {
-    width: 90rem;
-    margin: 0 auto;
-    border: 1px solid red;
-    height: 43.6rem;
+.nav-links {
     display: flex;
+    gap: 1rem;
+    list-style: none;
 }
 
-.description {
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-}
-
-.title{
-    font-size: 4.875rem;
-    color: rgb(255, 255, 255);
-}
-
-#title-shape {
-    font-family: "Dancing Script";
-    font-weight: 100;
-    font-size: 4.875rem;
-}
-
-.btn-primary {
-    border-radius: 2.625rem;
-    background: rgb(230, 83, 60);
-    width: 14rem;
-    height: 3.375rem;
-    border: none;
+.nav-link>a {
+    text-decoration: none;
     font-size: 1.125rem;
     color: rgb(255, 255, 255);
 }
 
-.btn-primary-2 {
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 2.625rem;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    width: 14rem;
-    height: 3.375rem;
-    font-size: 1.125rem;
+.icon {
+    display: none;
 }
 
-.sub-title {
-    font-size: 0.9375rem;
-    color: rgba(255, 255, 255, 0.5);
-}
+/* fitness-container styling */
 
+.fitness-container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid red ;
+    height: 77.39%;
+}

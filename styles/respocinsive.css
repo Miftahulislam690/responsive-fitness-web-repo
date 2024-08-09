@@ -1,0 +1,16 @@
+@media screen and (max-width: 576px) {
+    .nav-bar {
+        max-height: 6rem;
+        max-width: 85%;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+        color: #ffffff;
+        font-size: 1.50rem;
+    }
+}
