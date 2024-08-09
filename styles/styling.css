@@ -89,4 +89,26 @@
     .habits-container-sub-title>br {
         display: none;
     }
+
+    .habits-img-container {
+        height: 90rem;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .habits-img-container-child {
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        width: 17rem;
+        gap: 7rem;
+    }
+
+    .habits-img {
+        width: 272px;
+        height: 260px;
+    }
+
+    .habits-img>img {
+        margin-bottom: .90rem;
+    }
 }
