@@ -1,7 +1,7 @@
 @media screen and (max-width: 576px) {
     .nav-bar {
         max-height: 6rem;
-        max-width: 85%;
+        max-width: 90%;
     }
 
     .nav-item {
@@ -33,13 +33,17 @@
 
     .fitness-container {
         grid-template-columns: 1fr;
-        width: 85%;
+        width: 90%;
         gap: 1rem;
     }
 
     .fitness-img {
         margin: 0 auto;
         width: 18.25rem;
+    }
+
+    .fitness-text-btn {
+        margin-top: 0;
     }
 
     .btn-primary, .btn-primary-2 {

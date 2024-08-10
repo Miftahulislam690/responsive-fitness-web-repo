@@ -134,6 +134,7 @@ header {
 
 .fitness-text-btn {
     display: flex;
+    margin-top: 2rem;
     /* align-items: center; */
 }
 
