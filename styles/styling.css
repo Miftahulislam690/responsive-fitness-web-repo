@@ -118,7 +118,7 @@
 
     .run-easily-text-img {
         flex-direction: column;
-        height:  36.25rem;
+        height:  34.40rem;
         width: 90%;
     }
 
@@ -132,11 +132,30 @@
         margin: 1rem auto;
     }
 
+    .card-title {
+        font-size: 2.25rem;
+    }
+
     .card-sub-title {
         margin-bottom: 2rem;
     }
 
     .card-sub-title>br {
         display: none;
+    }
+
+    .trainings-text-container {
+        height: 12rem;
+        align-items: center;
+    }
+
+    .trainings-text-container-child {
+        width: 90%;
+        height: 10rem;
+        margin-top: 0;
+    }
+
+    .trainings-text-container-title {
+        font-size: 2.25rem;
     }
 }
