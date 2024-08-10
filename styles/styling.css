@@ -115,4 +115,28 @@
     .habits-img>img {
         margin-bottom: .90rem;
     }
+
+    .run-easily-text-img {
+        flex-direction: column;
+        height:  36.25rem;
+        width: 90%;
+    }
+
+    .run-easily-img-card {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .run-easily-text-card {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .card-sub-title {
+        margin-bottom: 2rem;
+    }
+
+    .card-sub-title>br {
+        display: none;
+    }
 }
