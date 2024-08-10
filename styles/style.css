@@ -72,7 +72,7 @@ body {
 /* nav-bar styling */  
 
 header {
-    background: linear-gradient(180deg, rgb(19, 19, 24)0%, rgba(19, 19, 24, 0.986)100%);
+    background-image: linear-gradient(to top, #000000, #090507, #100b0e, #141015, #17141a, #17141a, #17141a, #17141a, #141015, #100b0e, #090507, #000000);    
     width: auto;
     height: 46.7875rem;
 }
