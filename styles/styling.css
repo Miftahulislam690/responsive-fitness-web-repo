@@ -158,4 +158,74 @@
     .trainings-text-container-title {
         font-size: 2.25rem;
     }
+
+    .trainings-img-container {
+        height: 28rem;
+    }
+
+    .trainings-img-container-child {
+        height: 12.5rem;
+        width: 90%;
+    }
+
+    .trainings-img-1, .trainings-img-2, .trainings-img-3, .trainings-img-4, .trainings-img-5 {
+        height: 12.5rem;
+    }
+
+    .trainings-img-2 {
+        height: 12.5rem;
+    }
+
+
+    .trainings-img-card-3, .trainings-img-card-6 {
+        display: none;
+    }
+
+    .trainings-img-1 {        
+        grid-template-columns: 1fr .90fr;
+    }
+
+    .trainings-img-2 {        
+        grid-template-columns: .75fr 1fr;
+    }
+
+    .trainings-img-card-1, 
+    .trainings-img-card-2, 
+    .trainings-img-card-3, 
+    .trainings-img-card-4, 
+    .trainings-img-card-5, 
+    .trainings-img-card-6 {
+        height: 12.5rem;
+        background-position: ;
+    }
+
+    .trainings-img-card-title {
+        font-size: .80rem;
+        margin-left: .80rem;
+    }
+
+    .trainings-img-card-title>br {
+        display: none;
+    }
+
+    .trainings-img-card-title-2 {
+        font-size: .80rem;
+        margin-top: .80rem;
+    }
+
+    .trainings-img-card-title-3 {
+        font-size: .80rem;
+        margin-left: .80rem;
+    }
+
+    .trainings-img-card-title-3>br {
+        display: none;
+    }
+
+    .trainings-img-card-title-4 {
+        font-size: .80rem;
+        margin-right: .80rem;
+        margin-top: .80rem
+    }
+    
 }
