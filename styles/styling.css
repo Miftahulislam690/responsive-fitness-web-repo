@@ -279,8 +279,12 @@
         margin-bottom: 2rem;
     }
 
+    .bmi-calculator-input-sub-title>br {
+        display: none;
+    }
+
     .bmi-btn {
-        margin-top: 2.25rem;
+        margin-top: 2.5rem;
         width: 14rem;
         height: 3.375rem;
     }
@@ -303,6 +307,85 @@
 
     td {
         font-size: .70rem;
+    }
+
+    .meet-our-team-container-title {
+        font-size: 2.25rem;
+    }
+
+    .meet-our-team-container-sub-title>br {
+        display: none;
+    }
+
+    .meet-our-team-img-parent {
+        width: 90%;
+        height: 101rem;
+    }
+
+    .meet-our-team-img-container {
+        height: 104rem;
+    }
+
+    .meet-our-team-img-card-parent, .meet-our-team-img-card-parent-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        height: 60rem;
+    }
+
+    .footer-text-parent {
+        height: 54rem;
+    }
+
+    .footer-brand-text {
+        width: 100%;
+    }
+
+    .footer-text-child {
+        flex-direction: column;
+        width: 90%;
+        height: 43rem;  
+        margin-top: 1rem;
+        /* flex-direction: column; */
+    }
+
+    .get-started-parent {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .get-started-1, .get-started-2 {
+        width: 100%;
+    } 
+
+    .get-started-1 {
+        margin-bottom: 3rem;
+    }
+
+    .footer-brand-name-sub-title>br {
+        display: none;
+    }
+
+    .footer-2 {
+        margin-top: 3rem;
+        width: 90%;
+    }
+
+    .copy-right {
+        margin-top: 1rem;
+    }
+
+    .footer-brand-name {
+        font-size: 4rem;
+    }
+
+    .get-started-title {
+        font-size: 1.75rem;
+    }
+
+    .get-started-link>a {
+        font-size: 1.25rem;
     }
 
 }
